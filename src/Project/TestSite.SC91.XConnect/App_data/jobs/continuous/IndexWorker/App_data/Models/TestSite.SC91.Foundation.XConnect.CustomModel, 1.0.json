@@ -1,0 +1,36 @@
+{
+  "Name": "TestSite.SC91.Foundation.XConnect.CustomModel",
+  "Version": "1.0",
+  "References": [
+    {
+      "Name": "XConnect",
+      "Version": "1.0"
+    },
+    {
+      "Name": "Sitecore.XConnect.Collection.Model",
+      "Version": "9.0"
+    }
+  ],
+  "Types": {
+    "TestSite.SC91.Foundation.XConnect.Model.CustomerInfo": {
+      "Type": "Facet",
+      "BaseType": "Sitecore.XConnect.Facet",
+      "ClrType": "TestSite.SC91.Foundation.XConnect.Model.CustomerInfo, TestSite.SC91.Foundation.XConnect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Properties": {
+        "CustomerId": {
+          "Type": "Int32?"
+        },
+        "IsEmployee": {
+          "Type": "Boolean?"
+        }
+      }
+    }
+  },
+  "Facets": [
+    {
+      "Target": "Contact",
+      "Name": "CustomerInfo",
+      "Type": "TestSite.SC91.Foundation.XConnect.Model.CustomerInfo"
+    }
+  ]
+}
