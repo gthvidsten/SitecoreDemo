@@ -1,0 +1,17 @@
+﻿<Settings>
+  <Sitecore>
+    <XConnect>
+      <Services>
+        <XConnect.Client.Configuration>
+          <Options>
+            <Models>
+              <KomplettBankCustomModel>
+                <TypeName>TestSite.SC91.Foundation.XConnect.CustomModel, TestSite.SC91.Foundation.XConnect</TypeName>
+              </KomplettBankCustomModel>
+            </Models>
+          </Options>
+        </XConnect.Client.Configuration>
+      </Services>
+    </XConnect>
+  </Sitecore>
+</Settings>

@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{AEB7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeRouting", "Feature\AttributeRouting\AttributeRouting.csproj", "{CCEABD7A-0CD4-4741-8C6B-8FF11918ECC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationRules", "Feature\AutomationRules\AutomationRules.csproj", "{2A7FDA2A-DFB7-4320-8EE6-581284225FD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CCEABD7A-0CD4-4741-8C6B-8FF11918ECC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCEABD7A-0CD4-4741-8C6B-8FF11918ECC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCEABD7A-0CD4-4741-8C6B-8FF11918ECC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7FDA2A-DFB7-4320-8EE6-581284225FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7FDA2A-DFB7-4320-8EE6-581284225FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7FDA2A-DFB7-4320-8EE6-581284225FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7FDA2A-DFB7-4320-8EE6-581284225FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{E90F7258-5CD2-41DB-BEB1-73CC428390C3} = {D6EB89E0-EB9C-416D-B82C-F0A1874B5004}
 		{4019B8BC-50BC-4926-9DAB-2E3C3C580298} = {D6EB89E0-EB9C-416D-B82C-F0A1874B5004}
 		{CCEABD7A-0CD4-4741-8C6B-8FF11918ECC3} = {AEB7CAFA-0284-4979-BF3F-148A55B3B64A}
+		{2A7FDA2A-DFB7-4320-8EE6-581284225FD8} = {AEB7CAFA-0284-4979-BF3F-148A55B3B64A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E57162A-B5E2-4087-8D62-E5579E05B5D0}

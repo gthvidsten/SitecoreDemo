@@ -1,0 +1,22 @@
+﻿<Settings>
+  <Sitecore>
+    <XConnect>
+      <Services>
+        <DescriptorLocator>
+          <Options>
+            <PredicateDescriptors>
+              <IsCustomerEmployeeCondition>
+                <id>{FEC9A694-C874-4DAF-8496-DE847473282B}</id>
+                <type>TestSite.SC91.Feature.AutomationRules.AutomationConditions.IsCustomerEmployeeCondition, TestSite.SC91.Feature.AutomationRules</type>
+              </IsCustomerEmployeeCondition>
+              <IsOldCustomerCondition>
+                <id>{FEC9A694-C874-4DAF-8496-DE847473282B}</id>
+                <type>TestSite.SC91.Feature.AutomationRules.AutomationConditions.IsOldCustomerCondition, TestSite.SC91.Feature.AutomationRules</type>
+              </IsOldCustomerCondition>
+            </PredicateDescriptors>
+          </Options>
+        </DescriptorLocator>
+      </Services>
+    </XConnect>
+  </Sitecore>
+</Settings>

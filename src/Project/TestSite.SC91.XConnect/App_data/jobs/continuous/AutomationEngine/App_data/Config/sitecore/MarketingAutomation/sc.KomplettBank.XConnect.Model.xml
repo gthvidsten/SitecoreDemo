@@ -1,0 +1,19 @@
+﻿<Settings>
+  <Sitecore>
+    <XConnect>
+      <MarketingAutomation>
+        <Engine>
+          <Services>
+            <MarketingAutomation.Loading.ContactFacetsConfigurator>
+              <Options>
+                <IncludeFacetNames>
+                  <CustomerInfo>CustomerInfo</CustomerInfo>
+                </IncludeFacetNames>
+              </Options>
+            </MarketingAutomation.Loading.ContactFacetsConfigurator>
+          </Services>
+        </Engine>
+      </MarketingAutomation>
+    </XConnect>
+  </Sitecore>
+</Settings>
