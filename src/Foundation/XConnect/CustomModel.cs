@@ -14,6 +14,7 @@ namespace TestSite.SC91.Foundation.XConnect
             string fullName = MethodBase.GetCurrentMethod().DeclaringType?.FullName ?? "CustomModel";
             XdbModelBuilder builder = new XdbModelBuilder(fullName, new XdbModelVersion(1, 0));
             builder.ReferenceModel(Sitecore.XConnect.Collection.Model.CollectionModel.Model);
+
             builder.DefineFacet<Contact, CustomerInfo>(CustomerInfo.DefaultFacetKey);
 
             return builder.BuildModel();
