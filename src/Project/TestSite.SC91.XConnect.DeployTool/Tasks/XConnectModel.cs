@@ -34,7 +34,7 @@ namespace TestSite.SC91.XConnect.DeployTool.Tasks
             CreateModelXmlDefinition(Path.Combine(targetDirectory.FullName, "App_data\\jobs\\continuous\\AutomationEngine\\App_data\\Config\\sitecore", "sc." + typeof(CustomModel).FullName + ".xml"));
 
             // Create list of all custom facets to be automatically included when retrieving a contact in Automation Engine
-            CreateModelXmlFacetDefinition(CustomModel.Model, Path.Combine(targetDirectory.FullName, "App_Data\\jobs\\continuous\\AutomationEngine\\App_Data\\Config\\sitecore\\MarketingAutomation\\sc.KomplettBank.XConnect.Model.xml"));
+            CreateModelXmlFacetDefinition(CustomModel.Model, Path.Combine(targetDirectory.FullName, "App_Data\\jobs\\continuous\\AutomationEngine\\App_Data\\Config\\sitecore\\MarketingAutomation\\sc.TestSite.XConnect.Model.xml"));
         }
 
 

@@ -5,9 +5,9 @@
         <XConnect.Client.Configuration>
           <Options>
             <Models>
-              <KomplettBankCustomModel>
+              <MyCustomModel>
                 <TypeName>TestSite.SC91.Foundation.XConnect.CustomModel, TestSite.SC91.Foundation.XConnect</TypeName>
-              </KomplettBankCustomModel>
+              </MyCustomModel>
             </Models>
           </Options>
         </XConnect.Client.Configuration>
