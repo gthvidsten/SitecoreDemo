@@ -113,7 +113,7 @@ namespace TestSite.SC91.XConnect.DeployTool.Tasks
                 writer.WriteStartElement("XConnect.Client.Configuration");
                 writer.WriteStartElement("Options");
                 writer.WriteStartElement("Models");
-                writer.WriteStartElement("KomplettBankCustomModel");
+                writer.WriteStartElement("MyCustomModel");
                 writer.WriteStartElement("TypeName");
 
                 writer.WriteString($"{typeof(CustomModel).FullName}, {typeof(CustomModel).Assembly.GetName().Name}");
