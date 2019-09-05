@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="App_data\jobs\continuous\AutomationEngine\App_data\Config\sitecore\MarketingAutomation\sc.KomplettBank.XConnect.Model.xml" />
+    <Content Include="App_data\jobs\continuous\AutomationEngine\App_data\Config\sitecore\MarketingAutomation\sc.TestSite.XConnect.Model.xml" />
     <Content Include="App_data\jobs\continuous\AutomationEngine\App_data\Config\sitecore\sc.TestSite.SC91.Foundation.XConnect.CustomModel.xml" />
     <Content Include="App_data\jobs\continuous\AutomationEngine\App_data\Config\sitecore\Segmentation\sc.TestSite.SC91.Feature.AutomationRules.xml" />
     <Content Include="App_data\jobs\continuous\IndexWorker\App_data\Models\TestSite.SC91.Foundation.XConnect.CustomModel, 1.0.json" />
